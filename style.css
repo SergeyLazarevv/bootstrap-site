@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+/* Header */
+header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    left:0;
+    right:0;
+}
+
+.top_section {
+    background: url(./img/top_section/top_section-bg.png) center center;
+    background-size: cover; 
+    height: 100vh;
+    position: relative;
+}
+.header_logo-wrap {
+    position: relative;
+}
+.header_logo {
+    width: 40px;
+}
+.header_logo-txt {
+    width: 140px;
+}
+.header_logo-underTxt {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+
+
+.header_nav {
+    border-bottom: 1px solid rgba(108,98,106,.6);
+    margin: 30px 40px 0px;
+    padding: 0 0 25px;
+    z-index: 8;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgba(183,171,85,.8);
+}
+.header-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(108,98,106,.6);
+    color: whitesmoke;
+    padding-right: 35px;
+    width: 150px;
+}
+.header-input:focus {
+    outline:none;
+    border-color: rgb(55, 211, 55);
+}
+.input_group {
+    display: inline-block;
+    position: relative;
+}
+.header-input_img {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+/* Top-section */
+
+.top_section-imgWrap {
+    display: flex;
+    position: relative;
+    height: 100%;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+}
+.top_section-mainTxt {
+    font-size: 180px;
+    transform: rotate(-8deg);
+    color: rgba(255,255,255,.7);
+    width: 370px;
+    line-height: 130px;
+    font-family: 'Cookie', cursive;
+}
+
+.dark-layer {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: 2;
+}
+/* Header media*/
+
+@media screen and (min-width: 1024px) {
+    .nav-link::after {
+        content: '';
+        display: none;
+        height: 1px;
+        background-color: rgba(183,171,85,.8);
+        position: absolute;
+        bottom:0;
+        left:0;
+        width: 100%;
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: rgba(183,171,85,.8);
+    }
+    .nav-link:hover::after {
+        display: block;
+        bottom: -34px;
+    }
+    .input_group {
+        display: flex;
+    }
+    .top_menu-input_img {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+/* advantages*/
+
+.advantages_title {
+    padding: 100px 50px;
+    text-align: center;
+}

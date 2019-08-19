@@ -134,3 +134,75 @@ header {
     padding: 100px 50px;
     text-align: center;
 }
+.advantages_wrap {
+    padding: 0 70px 50px;
+}
+.advantages_inner {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+.advantages_inner-img {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+}
+.advantages_inner-text {
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+    border-left: 1px solid rgba(108,98,106,.4);
+    padding-left: 10px;
+}
+
+
+
+.value {
+    padding: 35px 70px;
+    text-align: center;
+    background-color: rgba(0,0,0,.9);
+    color: whitesmoke;
+}
+.value_inner h2 {
+    padding-bottom: 40px;
+    
+}
+.value_inner img {
+    padding-bottom: 40px;
+}
+.value_inner span {
+    padding-bottom: 40px;
+    color: rgb(255,235,59);
+    font-weight: bold;
+}
+
+
+.portfolio {
+    text-align: center;
+    padding: 100px 60px;
+}
+.portfolio h1 {
+    padding-bottom: 30px;
+}
+.portfolio span {
+    display: block;
+    padding-bottom: 30px;
+}
+.portfolio_nav-wrap {
+    display: flex;
+    justify-content: center;
+}
+.portfolio .nav-link {
+    padding: 5px 20px;
+    border:1px solid rgb(255,218,0);
+    border-radius: 5px;
+}
+.portfolio .nav-link {
+    margin-left: 15px;
+}
+.portfolio .nav-link:hover {
+    background-color: rgb(255,218,0);
+    color: white;
+    cursor: pointer;
+}

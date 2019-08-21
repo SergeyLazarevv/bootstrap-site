@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
 
+
 /* Header */
 header {
     background-color: transparent;
@@ -31,9 +32,6 @@ header {
     bottom:0;
     right:0;
 }
-
-
-
 .header_nav {
     border-bottom: 1px solid rgba(108,98,106,.6);
     margin: 30px 40px 0px;
@@ -130,10 +128,6 @@ header {
 
 /* advantages*/
 
-.advantages_title {
-    padding: 100px 50px;
-    text-align: center;
-}
 .advantages_wrap {
     padding: 0 70px 50px;
 }
@@ -156,53 +150,106 @@ header {
     padding-left: 10px;
 }
 
-
+/* Value section */
 
 .value {
     padding: 35px 70px;
-    text-align: center;
     background-color: rgba(0,0,0,.9);
     color: whitesmoke;
 }
-.value_inner h2 {
-    padding-bottom: 40px;
-    
-}
-.value_inner img {
-    padding-bottom: 40px;
-}
 .value_inner span {
-    padding-bottom: 40px;
     color: rgb(255,235,59);
     font-weight: bold;
 }
 
+/* Portfolio section */
 
-.portfolio {
-    text-align: center;
-    padding: 100px 60px;
-}
-.portfolio h1 {
-    padding-bottom: 30px;
-}
-.portfolio span {
-    display: block;
-    padding-bottom: 30px;
-}
-.portfolio_nav-wrap {
-    display: flex;
-    justify-content: center;
-}
 .portfolio .nav-link {
-    padding: 5px 20px;
+    padding: 3px 25px;
     border:1px solid rgb(255,218,0);
     border-radius: 5px;
 }
 .portfolio .nav-link {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .portfolio .nav-link:hover {
     background-color: rgb(255,218,0);
     color: white;
     cursor: pointer;
 }
+.portfolio_collageImage-1 {
+    height: 80vh;
+    background: url(./img/portfolio/image_1.png) center center no-repeat;
+    background-size: contain;
+    background-color: #f3f3f3;
+}
+.portfolio_collageImage-2 {
+    background: url(./img/portfolio/image_2.png) center center;
+    background-size: cover;
+}
+.portfolio_collageImage-3 {
+    background: url(./img/portfolio/image_3.png) center center;
+    background-size: cover;
+}
+.portfolio_collageImage-4 {
+    background: url(./img/portfolio/image_4.png) center center;
+    background-size: cover;
+}
+.portfolio_collageImage-5 {
+    background: url(./img/portfolio/image_5.png) center center;
+    background-size: cover;
+}
+.portfolio_collageImage-6 {
+    background: url(./img/portfolio/image_6.png) center center no-repeat;
+    background-size: cover;
+    background-color: #d7c3bc;
+}
+.portfolio_collageImage-2,
+.portfolio_collageImage-3,
+.portfolio_collageImage-4,
+.portfolio_collageImage-5,
+.portfolio_collageImage-6 {
+   height: 40vh;
+}
+@media screen and (max-width: 768px) {
+    .portfolio_collageImage-1 {
+        height: 250px;
+    }
+    .portfolio_collageImage-2,
+    .portfolio_collageImage-3,
+    .portfolio_collageImage-4,
+    .portfolio_collageImage-5,
+    .portfolio_collageImage-6 {
+        height: 250px;
+    }
+}
+
+/* Creative blocks */
+
+
+.creative_items-1 {
+    background-color: #ff5252;
+}
+.creative_items-2 {
+    background-color: #4caf50;
+}
+.creative_items-3 {
+    background-color: #673ab7;
+}
+.creative_items-4 {
+    background-color: #2196f3;
+}
+.creative_items-5 {
+    background-color: #ffeb3b;
+}
+.creative_items-6 {
+    background-color: #00bcd4;
+}
+.project_link {
+    color: #ffeb3b;
+}
+.project_link:hover {
+    color: #f2f2f2;
+}
+
+

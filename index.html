@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel=stylesheet href='./style.css'>
+    <link rel=stylesheet href='./gaps.css'>
 
     <title>BootSite</title>
   </head>
@@ -61,7 +62,7 @@
     <section class='container-fluid'>
         <div class='row'>
             <div class='col advantages'>
-                <h6 class='advantages_title'>
+                <h6 class='text-center pt-100 pb-100'>
                     With More Than 10 Years Of Knowledge And Expertise We Design And Code <br>
                     Websites And Apps, We Build Brands And Help Them Succeed.
                 </h6>
@@ -83,16 +84,11 @@
                     </div>
             </div>
             <div class='col-lg-4 col-md-6 advantages_inner'>
-                <div class='row'>
-                    <div class='col'>
-                            <img src='./img/advantages/design.png' class='advantages_inner-img' />
-                            <div class='advantages_inner-text'>
-                                <h5>modern design</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
-                            </div>
+                    <img src='./img/advantages/design.png' class='advantages_inner-img' />
+                    <div class='advantages_inner-text'>
+                        <h5>modern design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam.</p>
                     </div>
-                </div>
-                    
             </div>
             <div class='col-lg-4 col-md-6 advantages_inner'>
                     <img src='./img/advantages/featured.png' class='advantages_inner-img' />
@@ -117,40 +113,42 @@
             </div>
         </div>
     </section>
-    <section class='container-fluid'>
+    <!-- Value section -->
+    <section class='container-fluid text-center'>
         <div class='row value'>
-            <div class='col-3 value_inner'>
-                <img src='./img/value/completed 7.png' />
-                <h2>345</h2>
-                <span>completed project</span>
+            <div class='col-md-3 col-6 mb-5 value_inner'>
+                <img src='./img/value/completed 7.png' class='mb-3' />
+                <h2 class='pb-2'>345</h2>
+                <span class='pb-40'>completed project</span>
             </div>
-            <div class='col-3 value_inner'>
-                <img src='./img/value/coffee 4.png' />
-                <h2>983</h2>
-                <span>drinked coffee</span>
+            <div class='col-md-3 col-6 mb-5 value_inner'>
+                <img src='./img/value/coffee 4.png' class='mb-3' />
+                <h2 class='pb-2'>983</h2>
+                <span class='pb-40'>drinked coffee</span>
             </div>
-            <div class='col-3 value_inner'>
-                <img src='./img/value/mails.png' />
-                <h2>478</h2>
-                <span>mails send</span>
+            <div class='col-md-3 col-6 mb-5 value_inner'>
+                <img src='./img/value/mails.png' class='mb-3' />
+                <h2 class='pb-2'>478</h2>
+                <span class='pb-40'>mails send</span>
             </div>
-            <div class='col-3 value_inner'>
-                <img src='./img/value/awards.png' />
-                <h2>48</h2>
-                <span>awards taken</span>
+            <div class='col-md-3 col-6 mb-5 value_inner'>
+                <img src='./img/value/awards.png' class='mb-3' />
+                <h2 class='pb-2'>48</h2>
+                <span class='pb-40'>awards taken</span>
             </div>
         </div>
     </section>
-    <section class='container-fluid'>
-        <div class='row'>
-            <div class='col portfolio'>
-                <h1>creative portfolio</h1>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <!-- Portfolio section -->
+    <section class='container-fluid p-0'>
+        <div class='row m-0'>
+            <div class='col portfolio text-center pt-60 pb-60'>
+                <h1 class='pb-30'>creative portfolio</h1>
+                <span class='d-block pb-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Quod eaque placeat eum et quibusdam officiis animi dolore.
                 </span>
-                <div class='portfolio_nav-wrap'>
+                <div class='d-flex justify-content-center'>
                     <ul class='portfolio_nav nav'>
-                        <li class='nav-item'>
+                        <li class='nav-item mb-10'>
                             <a class='nav-link'>all</a>
                         </li>
                         <li class='nav-item'>
@@ -169,9 +167,96 @@
                 </div>
             </div>
         </div>
+        <!-- portfolio image part -->
+        <div class='row portfolio_collage no-gutters m-0'>
+            <div class='col-md-3 d-none d-md-flex portfolio_collageImage-1'></div>
+            <div class='col-md-9 col-12'>
+                <div class='row no-gutters m-0'>
+                    <div class='col-md-3 col-6 d-flex d-md-none portfolio_collageImage-1'></div>
+                    <div class='col-md-6 col-6 portfolio_collageImage-2'></div>
+                    <div class='col-md-6 col-6 portfolio_collageImage-3'></div>
+                    <div class='col-md-4 col-6 portfolio_collageImage-4'></div>
+                    <div class='col-md-4 col-6 portfolio_collageImage-5'></div>
+                    <div class='col-md-4 col-6 portfolio_collageImage-6'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Creative service -->
+
+    <section class='container-fluid'>
         <div class='row'>
-            <div class='col portfolio_image'>
-                
+            <div class='col text-center'>
+                <h3 class='mt-60 mb-40 text-dark'>Creative service</h3>
+                <span class='d-block pb-70 text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Mollitia eius deserunt nesciunt provident nobis vero assumenda? <br>
+                    Debitis, optio quas. Illum tenetur illo sunt quod.
+                </span>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-lg-8 offset-lg-2 col-md-12 d-flex flex-wrap text-center text-white'>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-1'>
+                        <h5 class='pb-20 pt-40'>Interactive elements</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                                Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-2'>
+                        <h5 class='pb-20 pt-40'>Custom menus</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                                Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-3'>
+                        <h5 class='pb-20 pt-40'>Animated counters</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-4'>
+                        <h5 class='pb-20 pt-40'>Easy to customize</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-5'>
+                        <h5 class='pb-20 pt-40'>Online store</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+                <div class='col-6 col-md-4 p-1'>
+                    <div class='creative_items-6'>
+                        <h5 class='pb-20 pt-40'>Custom pages</h5>
+                        <span class='d-block pb-20'>Lorem ipsum dolor sit amet consectetur.<br>
+                            Lorem ipsum dolor sit amet.
+                        </span>
+                        <a href="#" class='d-block pb-40 project_link'>See project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='container-fluid our_clients'>
+        <div class='row'>
+            <div class='col'>
+
             </div>
         </div>
     </section>

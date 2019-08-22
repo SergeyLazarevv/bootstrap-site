@@ -152,11 +152,6 @@ header {
 
 /* Value section */
 
-.value {
-    padding: 35px 70px;
-    background-color: rgba(0,0,0,.9);
-    color: whitesmoke;
-}
 .value_inner span {
     color: rgb(255,235,59);
     font-weight: bold;
@@ -212,9 +207,7 @@ header {
    height: 40vh;
 }
 @media screen and (max-width: 768px) {
-    .portfolio_collageImage-1 {
-        height: 250px;
-    }
+    .portfolio_collageImage-1,
     .portfolio_collageImage-2,
     .portfolio_collageImage-3,
     .portfolio_collageImage-4,
@@ -252,4 +245,8 @@ header {
     color: #f2f2f2;
 }
 
+/* Our clients */
 
+.our_clients {
+    background: url(./img/our_clients/Path.png) center center;
+}

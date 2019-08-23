@@ -250,3 +250,32 @@ header {
 .our_clients {
     background: url(./img/our_clients/Path.png) center center;
 }
+
+/* join us */
+
+.joinUs {
+    background: url(./img/JoinUs/Path.png) center center;
+}
+.joinUs h1 {
+    font-family: 'Cookie', cursive; 
+}
+.joinUs_btn {
+    background-color: rgb(255,235,59);
+    border: none;
+    color: black;
+}
+.joinUs_input {
+    background-color: rgba(255,255,255,.5);
+}
+.joinUs_input::-webkit-input-placeholder {color:#f2f2f2;}
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.5s ease;}
+input::-moz-placeholder     {text-overflow:ellipsis;} 
+input:-moz-placeholder      {text-overflow:ellipsis;} 
+input:-ms-input-placeholder {text-overflow:ellipsis;}   
